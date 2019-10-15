@@ -1,0 +1,21 @@
+.container {
+/*   border: 2px solid red; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+/*   heigth: 200px; */
+}
+
+body {
+  background-color: #223;
+  color: white;
+}
+
+label {
+  display: block;
+}
+
+.slider-selection {
+	background: gray;
+}
