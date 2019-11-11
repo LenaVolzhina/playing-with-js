@@ -103,3 +103,11 @@ updateItem(item: TodoItem, changes) {
 ```
 
 We're using the spread operator for this: a new object is constructed, composed of the original set of keys and values (...item) which are overridden by the keys and values of changes. (If a key in changes doesn't exist in item, it is added to the new object.)
+
+
+### ngClass directive
+```
+<some-element [ngClass]="{'first': true, 'second': true, 'third': false}">...</some-element>
+```
+
+The 'first' and 'second' class will be applied to the element because they are given a true value, whereas the 'third' class will not be applied because it is given a false value
