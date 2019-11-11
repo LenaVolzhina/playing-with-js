@@ -127,22 +127,14 @@ ng build --prod --base-href="/"
 
 live-server dist/
 
-
 angular-cli-ghpages --dir=dist/todo-list
 ```
 
 Your app will be available at `https://[your-GH-username].github.io/[repo-name]/`
 
-My case:
-
-Didn't work, empty page & 404 in console
-
-```
-ng add angular-cli-ghpages
-ng deploy
-```
+In my case it, got empty page & 404 in console
 
 
-From official documentation: https://angular.io/guide/deployment#deploy-to-github-pages
+Followed steps from official documentation: https://angular.io/guide/deployment#deploy-to-github-pages
 
-ng build --prod --output-path docs --base-href /playing-with-js/
+It looks like some strange hack (to pretend I want to show docs, but it works, so...).
