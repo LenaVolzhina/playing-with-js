@@ -31,6 +31,6 @@ export class ListManagerComponent implements OnInit {
 
   addItem(title: string) {
     // ES6 Object Property Value Shorthand
-    this.todoList.push({ title });
+    this.todoListService.addItem({ title });
   }
 }
