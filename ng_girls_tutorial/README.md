@@ -42,9 +42,7 @@ A component has template (html), style (css) and controller (js). It can also ha
 The double curly braces and their content are called [Interpolation](https://angular.io/guide/glossary#interpolation). It makes it really simple to insert dynamic data into the view.
 
 Command for inline templates by default:
-```
-ng config schematics.@schematics/angular.component.inlineTemplate true
-```
+```ng config schematics.@schematics/angular.component.inlineTemplate true```
 
 
 `.spec.ts` файлы предназначены для тестирования компонентов
@@ -126,6 +124,10 @@ npm i -g angular-cli-ghpages
 Commands for my build & deploy:
 ```
 ng build --prod --base-href="/"
+
+live-server dist/
+
+
 angular-cli-ghpages --dir=dist/todo-list
 ```
 
@@ -139,3 +141,8 @@ Didn't work, empty page & 404 in console
 ng add angular-cli-ghpages
 ng deploy
 ```
+
+
+From official documentation: https://angular.io/guide/deployment#deploy-to-github-pages
+
+ng build --prod --output-path docs --base-href /playing-with-js/
