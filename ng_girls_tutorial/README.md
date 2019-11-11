@@ -48,3 +48,5 @@ Command for inline templates by default:
 
 ### Class
 Has members: properties and methods.
+
+Property binding docs: https://angular.io/guide/template-syntax#property-binding-property
