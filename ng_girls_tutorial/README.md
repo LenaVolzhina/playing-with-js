@@ -4,6 +4,8 @@ https://ng-girls.gitbook.io/todo-list-tutorial/
 # History
 Started on 11th November during ngGirls event
 
+# Notes during workshop
+
 ### Introduction
 We'll need a browser to see the result, NodeJS to run scripts on our computer, and NPM to easily fetch libraries from the web. With NPM we'll install the Angular CLI, which will run a script with NodeJS to create a starter project for us, and use NPM to fetch the libraries we'll need for the project (such as Angular)
 
@@ -64,3 +66,16 @@ Now you have to tell the browser to display those items. For this, you will use 
 **Directives** are pieces of logic (written as classes) that can be attached to elements and components. They are used to change the display or the behavior of the element. Angular comes with some built-in directives.
 * `ngFor`
 * `ngIf`
+
+
+### Add items
+
+Want to add items via `input-button-unit`, but we need to delegate the action to its parent component (to make it reusable)
+
+Хотим одновременно добавлять новые элементы с помощью этого компонента, и редактировать существующие.
+
+So what we actually want to do is to emit an event from the input-button-unit component whenever the title is changed. With Angular, we can easily define and emit events from our components!
+
+### Styles
+
+The selector :host is applied to the element that holds this component - `<app-input-button-unit>`. This element is not a part of this component's template. It appears in its parent's template. This is how we can control its style from within the component.
