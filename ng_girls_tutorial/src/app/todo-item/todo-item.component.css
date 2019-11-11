@@ -11,6 +11,12 @@
   flex-shrink: 0;
   margin: auto 1ex auto 0;
 }
+.todo-checkbox-complete {
+  flex-shrink: 0;
+  margin: auto 1ex auto 0;
+  background: black;
+  checked: true;
+}
 
 .todo-title {
   flex-grow: 1;
