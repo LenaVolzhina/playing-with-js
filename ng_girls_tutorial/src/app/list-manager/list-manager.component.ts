@@ -17,8 +17,6 @@ import { TodoListService } from '../services/todo-list.service';
           </li>
       </ul>
     </div>
-    <h1 *ngIf="userLoggedIn">Welcome!</h1>
-    <h1 *ngIf="!userLoggedIn">You are not logged in!</h1>
   `,
   styleUrls: ['./list-manager.component.css']
 })
