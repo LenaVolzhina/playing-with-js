@@ -50,3 +50,9 @@ Command for inline templates by default:
 Has members: properties and methods.
 
 Property binding docs: https://angular.io/guide/template-syntax#property-binding-property
+
+### Events
+
+Events binding docs: https://angular.io/guide/template-syntax#event-binding-event
+
+Template reference variables docs: https://angular.io/guide/template-syntax#template-reference-variables--var-
