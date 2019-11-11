@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
       </h1>
 
       <app-input-button-unit></app-input-button-unit>
+      <app-input-button-unit></app-input-button-unit>
+      <b><app-input-button-unit></app-input-button-unit></b>
   `,
   styleUrls: ['./app.component.css']
 })

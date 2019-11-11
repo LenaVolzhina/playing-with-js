@@ -45,3 +45,6 @@ Command for inline templates by default:
 
 `.spec.ts` файлы предназначены для тестирования компонентов
 
+
+### Class
+Has members: properties and methods.
