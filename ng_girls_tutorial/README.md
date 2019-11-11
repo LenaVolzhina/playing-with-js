@@ -56,3 +56,11 @@ Property binding docs: https://angular.io/guide/template-syntax#property-binding
 Events binding docs: https://angular.io/guide/template-syntax#event-binding-event
 
 Template reference variables docs: https://angular.io/guide/template-syntax#template-reference-variables--var-
+
+### The TODO list
+
+Now you have to tell the browser to display those items. For this, you will use the Angular built-in directive, `*ngFor`. It works like an enhanced loop in Java. The `*` notation causes Angular to use the current element as a template when rendering the list.
+
+**Directives** are pieces of logic (written as classes) that can be attached to elements and components. They are used to change the display or the behavior of the element. Angular comes with some built-in directives.
+* `ngFor`
+* `ngIf`
